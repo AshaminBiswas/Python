@@ -1,6 +1,9 @@
 {
     "cSpell.words": [
         "Ashamin",
-        "Biswas"
+        "Biswas",
+        "getattr",
+        "Metaprogramming",
+        "namedtuple"
     ]
 }
