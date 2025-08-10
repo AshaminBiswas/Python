@@ -42,7 +42,8 @@ Immutable sequences of Unicode characters.
 Ordered, mutable collections.
 
 - Examples: `[1, [2, 'three'], 4.5]`, `list(range(10))`
-
+- List Comprehension : ``` squire_numbers = [x**2 for x in range(10)] ```
+- Output: ```[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]```
 ---
 
 ## 🧳 Tuples  
