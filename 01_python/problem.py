@@ -15,29 +15,37 @@
 # height = float(input("Enter height : "))
 # width = float(input("Enter width : "))
 
-geometry = int(input("Enter your number between 1 - 4 : "))
+# geometry = int(input("Enter your number between 1 - 4 : "))
 
-if  1 <= geometry <= 4 :
-    if geometry == 1 : 
-        print("calculating area of rectangle")
-        height = float(input("Enter height : "))
-        width = float(input("Enter Width : "))
-        print("area of rectangle is : ", height * width)
+# if  1 <= geometry <= 4 :
+#     if geometry == 1 : 
+#         print("calculating area of rectangle")
+#         height = float(input("Enter height : "))
+#         width = float(input("Enter Width : "))
+#         print("area of rectangle is : ", height * width)
 
-    elif geometry == 2 :
-        print("calculating area of square")
-        length = float(input("Enter length : "))
-        print("area of square is : ", length*length)
+#     elif geometry == 2 :
+#         print("calculating area of square")
+#         length = float(input("Enter length : "))
+#         print("area of square is : ", length*length)
 
-    elif geometry == 3 : 
-        print("calculating area of triangle")
-        length = float(input("Enter length : "))
-        breath = float(input("Enter Breath : "))
-        print("area of triangle is : ", (0.5 * (length * breath)))
+#     elif geometry == 3 : 
+#         print("calculating area of triangle")
+#         length = float(input("Enter length : "))
+#         breath = float(input("Enter Breath : "))
+#         print("area of triangle is : ", (0.5 * (length * breath)))
     
-    elif geometry == 4 :
-        print("calculating area of square")
-        radius = float(input("Enter length : "))
-        print("area of circle is : ", (3.14 * (radius*radius)))
-else:
-    print("enter valid number")
+#     elif geometry == 4 :
+#         print("calculating area of square")
+#         radius = float(input("Enter length : "))
+#         print("area of circle is : ", (3.14 * (radius*radius)))
+# else:
+#     print("enter valid number")
+
+
+# check a letter vowel or not
+
+letter = input("Enter a letter ")
+
+if letter in "aeiouAEIOU": print(letter, ": is a vowel")
+else : print(letter, ": is consonant")
