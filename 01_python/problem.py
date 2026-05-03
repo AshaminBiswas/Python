@@ -45,7 +45,18 @@
 
 # check a letter vowel or not
 
-letter = input("Enter a letter ")
+# letter = input("Enter a letter ")
 
-if letter in "aeiouAEIOU": print(letter, ": is a vowel")
-else : print(letter, ": is consonant")
+# if letter in "aeiouAEIOU": print(letter, ": is a vowel")
+# else : print(letter, ": is consonant")
+
+
+
+#number in digits
+
+# number = int(input("Enter a number : "))
+
+# if 1 <= number <= 9 : print("it is single digit number")
+# elif 10 <= number <= 99 : print("it is a double digit number")
+# elif 100 <= number <= 999 : print("its is a triple digit number")
+# else : print("enter number between 1 to 999")
