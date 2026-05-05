@@ -17,9 +17,22 @@ while n <= 10 :
 
 
 
-while True :
-    number1 = int(input("enter a number"))
-    number2 = int(input("enter a another number"))
-    print(number1 + number2)
-    stop = input("do you want to stop the loop")
-    if stop == "yes" : break
+# while True :
+#     number1 = int(input("enter a number"))
+#     number2 = int(input("enter a another number"))
+#     print(number1 + number2)
+#     stop = input("do you want to stop the loop")
+#     if stop == "yes" : break
+
+
+
+# for i in range (1,5) :
+#     for j in range (1, 13) :
+#         print(j, end="" )
+#     print(" darjan", i)
+
+
+for i in range(1, 6) :
+    for j in range(1,i+1) :
+        print(j, end="")
+    print()
