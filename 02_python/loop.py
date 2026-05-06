@@ -48,10 +48,22 @@ a = 7
 #     if i % 8 == 0 and i % 12 == 0:
 #         print(i)
 
-n = 1
-while n <=10 :
-    if n == 3 :
-        print("favorite")
-    else:
-        print(n)
-    n = n + 1
+# n = 1
+# while n <=10 :
+#     if n == 3 :
+#         print("favorite")
+#     else:
+#         print(n)
+#     n = n + 1
+
+
+for i in range(1,11) :
+    if i == 5 :
+        break
+    else:print(i)
+
+for i in range(1,11) :
+    if i == 5 :
+        continue
+    else:print(i)
+
