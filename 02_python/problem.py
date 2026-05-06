@@ -34,3 +34,17 @@
 
 
 # write a billing system at supermarket
+
+while True :
+    total = 0
+    while True : 
+         quantity = int(input("Enter Quantity"))
+         amount = int(input("Enter amount"))
+         total += quantity * amount
+         repeat = input("Do you want to perches more then type yes else no")
+         if repeat == "no" :break
+    billName = input("enter bill name : ")
+    print(total)
+    repeat = input("Do you want to perches more then type yes else no")
+    if repeat == "no" :break
+
