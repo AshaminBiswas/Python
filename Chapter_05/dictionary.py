@@ -12,3 +12,6 @@ marks.update({"ashamin":200})
 print(marks)
 
 print(marks.get("ashamin"))
+
+print(marks.copy())
+print(marks.clear())
