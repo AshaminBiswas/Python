@@ -47,3 +47,43 @@
 # if("spam" in word) : 
 #     print("this is a spam text")
 # else:print("it's safe")
+
+
+
+
+
+#Q4  ===> find the character length match or not 
+
+# length  = input("Enter your text : ")
+# if(len(length) == 10):
+#     print("Super character")
+# else:print("its exceed ")
+
+
+
+# l1 = ["ashamin", "robi", "mukul", "hasan"]
+# name = input("enter your name : ")
+
+# if (name in l1) :
+#     print(" I found you :", name)
+# else:print("sorry buddy", name)
+
+
+
+
+
+#Q6 grade system
+
+marks = int(input("Please enter your marks : "))
+
+if(marks >= 90) :
+    print(f"You got : {marks} Ex")
+elif(marks >= 80 and marks < 90) :
+    print(f"You got : {marks} A")
+elif(marks >= 70 and marks < 80) : 
+    print(f"You got : {marks} B")
+elif(marks >= 60 and marks < 70) : 
+    print(f"You got : {marks} C")
+elif(marks >= 50 and marks < 60) : 
+    print(f"You got : {marks} D")
+else : print(f"You got : {marks} F")
