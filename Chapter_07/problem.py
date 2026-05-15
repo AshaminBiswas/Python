@@ -29,11 +29,33 @@
 
 
 #find factorial
+# number = int(input("Enter Your number"))
+# i= 1
+# fact = 1
+# while(i<=number):
+#     fact*=i
+#     i+=1
+# print(fact)
+
+
+
+#print following star pattern for n = 3
 
 number = int(input("Enter Your number"))
-i= 1
-fact = 1
-while(i<=number):
-    fact*=i
-    i+=1
-print(fact)
+
+# for i in range(1, number + 1) :
+#     print(" " * (number - i), end="")
+#     print("*" * (2*i-1), end="" )
+#     print(" ")
+
+
+
+
+# for i in range(1, number+1):
+#     if(i==1 or i==number):
+#         print("*" * number, end="")
+#     else:
+#         print("*", end="")
+#         print(" "* (number-2), end="")
+#         print("*", end="")
+#     print("")
