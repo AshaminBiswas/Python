@@ -21,3 +21,8 @@ def average():
 
 
 # default parameter
+
+# def goodDay(name, ending="thankyou"):
+#     print("good day,", name)
+#     print(ending)
+# goodDay("Ashamin")
